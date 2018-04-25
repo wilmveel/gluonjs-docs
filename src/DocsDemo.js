@@ -1,5 +1,5 @@
-import {GluonElement, html} from "gluonjs";
-import jsBeautify from 'js-beautify'
+import {GluonElement, html} from "../../gluonjs/gluon.js";
+import jsBeautify from "./JsBeautify.js";
 
 class DocsDemo extends GluonElement {
 
@@ -37,6 +37,7 @@ class DocsDemo extends GluonElement {
       "unescape_strings": true,
     }
     return jsBeautify.html(html, options)
+
   }
 
   connectedCallback(){
