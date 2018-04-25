@@ -18,6 +18,7 @@ class DocsDemo extends GluonElement {
         #code {
           background: #f5f5f5;
           padding: 10px;
+          white-space: pre-wrap;
         }
        </style>
        <section>

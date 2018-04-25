@@ -5,6 +5,7 @@
   "main": "./src/index.js",
   "module": "./src/index.js",
   "scripts": {
+    "postinstall": "npm run build",
     "build": "rollup -c"
   },
   "author": "",
